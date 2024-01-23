@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+  height: 100%;
+  background-color: rgb(7, 6, 1);
+}
+
+.searchbar {
+  background-color: rgb(193, 193, 196);
+  border: none;
+  outline: none;
+  font-weight: 500;
+  width: 40vw;
+  @apply hover:scale-[101%];
+  @apply duration-300;
+  @apply hover:bg-slate-200;
+}
+
+.metadataItems{
+  @apply text-slate-50;
+  @apply font-bold;
+  @apply bg-gray-600;
+  @apply bg-opacity-55;
+  @apply p-1;
+  @apply m-auto;
+  @apply rounded-md;
+}
