@@ -1,5 +1,6 @@
 # quick video player
 
+![app overview](readmeIMG/overview.png)
 ## Developing
 
 > Be sure to be on a git branch before working.
